@@ -28,14 +28,14 @@
 }
 
 .information{
-    background-color: F3F0F0;
+    background-color: DFD7D7;
     color: black;
     margin-top: -1%;
     height: 100%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body{
-    background-color: F3F0F0;
+    background-color: DFD7D7;
 }
 h1{
     font-size: 40px;
@@ -60,7 +60,7 @@ h1{
 }
 
 
-.about {
+#about {
     text-align: center;
     font-size: 20px;
     margin-left: 20%;
@@ -74,4 +74,22 @@ h1{
     margin-top: 10%;
     font-size: 20px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
 }
+
+.image {
+    width: 800px;
+    height: 500px;
+}
+
+.contact-info{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    padding: .2%;
+}
+
+
+
