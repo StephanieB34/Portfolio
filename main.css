@@ -44,7 +44,7 @@ body {
 /*******information/header****************/
 .information{
     height: 100%;
-    background-image: url("hikingphoto.jpg");
+    background-image: url("https://images.unsplash.com/photo-1473830439578-14e9a9e61d55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,10 +78,16 @@ body {
 
 /*********About section**************/
 #about {
-    text-align: initial;
+    text-align:initial;
     padding-bottom: 5%;
 }
 
+.aboutphoto{
+    height: 300px;
+    width: 300px;
+    margin-left: 10%;
+    object-fit: contain;
+}
 #about p{
     margin-left: 10%;
     margin-right: 10%;
@@ -109,7 +115,7 @@ h3 {
 .container {
     text-align: initial;
     font-size: 20px;
-    background-color:568152;
+    background-color:B9C9D8;
     padding: 5%;
     
 }
@@ -172,9 +178,11 @@ h3 {
     }
 
     #about p{
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 10%;
         font-size: 25px;
+    }
+    .aboutphoto{
+        float: right;
     }
     .container{
         font-size: 25px;
@@ -198,11 +206,14 @@ h3 {
         padding: 10%;
         padding-top: 5%;
      }
- 
-     #about p{
-         margin-left: 20%;
-         margin-right: 20%;
-     }
+    h2{
+        text-align: left;
+        margin-left: 10%;
+    }
+    .aboutphoto{
+        height: 400px;
+        width: 400px;
+    }
  
      .projects{
          background-color: white;
@@ -230,6 +241,17 @@ h3 {
     }
     #about p {
         font-size: 20px;
+    }
+    .aboutphoto{
+        height: 300px;
+        width: 300px;
+        margin-right: 10%;
+    }
+    h2{
+        padding-top: 2%;
+    }
+    #about{
+        padding-bottom: 5%;
     }
 }
 
