@@ -50,7 +50,7 @@ body {
     background-size: cover;
 }
 
-.transbox {
+/*.transbox {
     background-color: #ffffff;
     opacity: 0.6;
     filter: alpha(opacity=60); 
@@ -59,14 +59,18 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     height: 200px;
-  }
-  div.transbox h1{
+  }*/
+ h1{
     font-weight: bold;
     text-align: center;
     font-size: 30px;
     color: black;
+    display: inline-block;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50%;
   }
-  div.transbox p {
+.information p {
     font-weight: bold;
     font-size: 25px;
     text-align: center;
@@ -165,15 +169,13 @@ h3 {
   }
 
   @media screen and (min-width: 767px) {
-    .transbox{
-        margin-left:20%;
-        margin-right: 20%;
-    }
-    div.transbox h1{
+     h1{
         font-size: 38px;
+        margin: 30%;
+        margin-bottom: 0%; 
     }
 
-    div.transbox p {
+    .information p {
         font-size: 30px;
     }
 
@@ -193,13 +195,12 @@ h3 {
 }
 
 @media screen and (min-width: 1023px) {
-    .transbox{
-        height: 300px;
-    }
-    div.transbox h1 {
+    h1 {
         font-size: 50px;
+        margin-top: 40%;
+        margin-bottom: 0%;
     }
-    div.transbox p{
+     p{
         font-size: 40px;
     }
     .container {
@@ -221,17 +222,12 @@ h3 {
 }
 
 @media screen and (min-width: 1025px) {
-    .transbox{
-        margin-top:10%;
-        margin-left: 36%;
-        margin-right: 20%;
-        height: 200px;
-        width: 400px;
-    }
-    div.transbox h1{
+    h1{
         font-size: 30px;
+        margin-top: 20%;
+        margin-left: 42%;
     }
-    div.transbox p{
+    p{
         font-size: 20px;
     }
     .container{
