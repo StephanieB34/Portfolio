@@ -43,25 +43,38 @@ body {
 
 /*******information/header****************/
 .information{
-    background-color: lightgray;
-    color: black;
     height: 100%;
+    background-image: url("hikingphoto.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-h1{
-    padding-top: 70%;
+.transbox {
+    background-color: #ffffff;
+    opacity: 0.6;
+    filter: alpha(opacity=60); 
+    display: inline-block;
+    margin-top: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 200px;
+  }
+  div.transbox h1{
+    font-weight: bold;
     text-align: center;
     font-size: 30px;
-    animation: slide-left 10s;
-}
-
-.intro{
-    font-size: 20px;
+    color: black;
+  }
+  div.transbox p {
+    font-weight: bold;
+    font-size: 25px;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
-}
-
+    color: black;
+    
+  }
 
 /*********About section**************/
 #about {
@@ -96,7 +109,7 @@ h3 {
 .container {
     text-align: initial;
     font-size: 20px;
-    background-color: lightgray;
+    background-color:568152;
     padding: 5%;
     
 }
@@ -146,13 +159,16 @@ h3 {
   }
 
   @media screen and (min-width: 767px) {
-    h1{
-        padding-top: 50%;
-        font-size: 35px;
+    .transbox{
+        margin-left:20%;
+        margin-right: 20%;
+    }
+    div.transbox h1{
+        font-size: 38px;
     }
 
-    .intro {
-        font-size: 25px;
+    div.transbox p {
+        font-size: 30px;
     }
 
     #about p{
@@ -166,15 +182,17 @@ h3 {
     .footer{
         font-size: 20px;
     }
-
 }
 
 @media screen and (min-width: 1023px) {
-    h1 {
-        font-size: 40px;
+    .transbox{
+        height: 300px;
     }
-    .intro{
-        font-size: 30px;
+    div.transbox h1 {
+        font-size: 50px;
+    }
+    div.transbox p{
+        font-size: 40px;
     }
     .container {
         padding: 10%;
@@ -192,11 +210,17 @@ h3 {
 }
 
 @media screen and (min-width: 1025px) {
-    h1{
-        padding-top: 20%;
+    .transbox{
+        margin-top:10%;
+        margin-left: 36%;
+        margin-right: 20%;
+        height: 200px;
+        width: 400px;
+    }
+    div.transbox h1{
         font-size: 30px;
     }
-    .intro{
+    div.transbox p{
         font-size: 20px;
     }
     .container{
