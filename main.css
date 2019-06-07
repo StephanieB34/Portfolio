@@ -66,9 +66,10 @@ body {
     font-size: 30px;
     color: black;
     display: inline-block;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 50%;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 30%;
+    margin-bottom: 0%;
   }
 .information p {
     font-weight: bold;
@@ -234,7 +235,7 @@ h3 {
 @media screen and (min-width: 1025px) {
     h1{
         font-size: 30px;
-        margin-top: 15%;
+        margin-top: 10%;
         margin-left: 42%;
     }
     p{
